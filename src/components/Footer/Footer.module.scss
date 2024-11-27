@@ -1,0 +1,39 @@
+.footer {
+    color: #131010;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .getFullYear{
+    padding: 15px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .socialLinks {
+    margin: 10px 0;
+    
+    a {
+      color: #0f0e0e;
+      margin: 0 10px;
+      font-size: 20px;
+      text-decoration: none;
+  
+      &:hover {
+        color: #0c0303; /* Цвет при наведении */
+      }
+    }
+  }
+  
+  .subscribeForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  
+  }

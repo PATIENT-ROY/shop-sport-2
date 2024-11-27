@@ -1,0 +1,90 @@
+.card {/* Позволяет размещать элементы поверх изображения */
+    background: #fff;
+    justify-content:space-between;
+    display:grid;
+    align-items: center;
+    padding: 16px;
+    width: 210px;
+    height: 260px;
+    top: 666px;
+    left: 395px;
+    border-color: #F8F8F8;
+    border: 1px solid #f3f3f3;
+    border-radius: 45px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    padding: 20px;
+&:hover {
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.06); // Исправлено
+    transform: translateY(-5px);
+}
+}
+  .like{
+    position:relative;
+    font-size: 24px;
+    color: #ccc; /* Цвет по умолчанию */
+    cursor: pointer;
+    transition: color 0.3s ease;
+  
+    &.liked {
+      color: red; /* Красный цвет при нажатии */
+    }
+  }
+  
+  .cardImage {
+   
+    border-radius: 8px;
+    width: 133px;
+    height: 112px;
+    top: 996px;
+    left: 928px;
+  }
+  
+  .cardTitle {
+    font-size: 16px;
+    margin-top: 12px;
+    color: #333;
+  }
+  
+  .cardPrice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #52c41a;
+    margin-top: 8px;
+  }
+  
+  /* Иконка для выбранного товара */
+  .selectedIcon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 20px;
+    color: #52c41a; /* Зеленая галочка */
+  }
+  
+  /* Баннер для скидки */
+  .discountBadge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: #ff4d4f; /* Красный цвет для скидки */
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  .pricePlus{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .textPrice{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .text{
+    font-size: 14px;
+    opacity: 0.5;
+    text-transform: uppercase;
+  }

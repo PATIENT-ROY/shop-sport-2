@@ -1,0 +1,27 @@
+.homeHeader {
+    display: flex; /* Включаем flexbox для выравнивания */
+    justify-content: space-between; /* Размещаем элементы по сторонам */
+    align-items: center; /* Выравнивание по вертикали */
+    margin: 20px 0; /* Отступы сверху и снизу */
+    padding: 20px;
+  
+    .title {
+      width: 240px;
+      height: 39px;
+      font-family: 'Inter', sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38.73px;
+      color: #000000; /* Цвет текста */
+      text-align: left;
+      text-underline-position: from-font;
+    }
+  
+    .searchBar {
+      width: auto; /* Ширина зависит от содержимого */
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+ 

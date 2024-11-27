@@ -1,0 +1,28 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  width: 250px; /* Можно сделать 100% для адаптивности */
+  height: 45px;
+  gap: 8px; /* Увеличен отступ между иконкой и полем ввода */
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  flex: 1; /* Чтобы input занимал оставшееся пространство */
+  padding: 5px;
+  font-size: 16px; /* Добавлен размер шрифта для input */
+}
+
+/* Стили для placeholder */
+.input::placeholder {
+  font-size: 16px; /* Размер текста */
+  color: #aaa; /* Цвет текста */
+}

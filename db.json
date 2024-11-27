@@ -1,0 +1,77 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Кроссовки Nike Air Max 270",
+        "price": 12999,
+        "image": "/images/sneakers1.png"
+      },
+      {
+        "id": 2,
+        "title": "Кроссовки Puma X Aka Boku Future Rider",
+        "price": 8999,
+        "image": "/images/sneakers2.png"
+      },
+      {
+        "id": 3,
+        "title": "Кроссовки Nike Kyrie 7",
+        "price": 11999,
+        "image": "/images/sneakers3.png"
+      },
+      {
+        "id": 4,
+        "title": "Кроссовки Adidas Stan Smith",
+        "price": 9999,
+        "image": "/images/sneakers4.png"
+      },
+      {
+        "id": 5,
+        "title": "Кроссовки Nike Air Max 270",
+        "price": 12999,
+        "image": "/images/sneakers5.png"
+      },
+      {
+        "id": 6,
+        "title": "Кроссовки Puma X Aka Boku Future Rider",
+        "price": 8999,
+        "image": "/images/sneakers6.png"
+      },
+      {
+        "id": 7,
+        "title": "Кроссовки Nike Kyrie 7",
+        "price": 11999,
+        "image": "/images/sneakers7.png"
+      },
+      {
+        "id": 8,
+        "title": "Кроссовки Adidas Stan Smith",
+        "price": 9999,
+        "image": "/images/sneakers8.png"
+      },
+      {
+        "id": 9,
+        "title": "Кроссовки Adidas Stan Smith",
+        "price": 9999,
+        "image": "/images/sneakers9.png"
+      },
+      {
+        "id": 10,
+        "title": "Кроссовки Adidas Stan Smith",
+        "price": 9999,
+        "image": "/images/sneakers10.png"
+      },
+      {
+        "id": 11,
+        "title": "Кроссовки Adidas Stan Smith",
+        "price": 9999,
+        "image": "/images/sneakers11.png"
+      },
+      {
+        "id": 12,
+        "title": "Кроссовки Adidas Stan Smith",
+        "price": 3500,
+        "image": "/images/sneakers12.png"
+      }
+    ]
+  }
+  
