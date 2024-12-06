@@ -76,3 +76,11 @@ h3,p{
   margin-left: 5px;
   font-size: 12px;
 }
+
+.logoLink 
+{
+  text-decoration: none;
+  display: flex;
+  align-items: center; /* Для вертикального выравнивания */
+}
+

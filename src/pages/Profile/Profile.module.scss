@@ -1,0 +1,11 @@
+.profile {
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh; /* Make the container at least the height of the viewport */
+    padding: 20px; /* Optional padding */
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

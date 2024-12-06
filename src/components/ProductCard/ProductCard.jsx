@@ -3,6 +3,8 @@ import styles from "./ProductCard.module.scss"; // Styles for the card
 import Button from "../Button/Button"; // Importing the button component
 import { CiHeart } from "react-icons/ci"; // Heart icon
 
+
+
 const ProductCard = ({ image, title, price, product, addToCart, addToFavorites }) => {
   const [isLiked, setIsLiked] = useState(false);
 

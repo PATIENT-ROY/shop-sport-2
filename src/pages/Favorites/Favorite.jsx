@@ -1,8 +1,11 @@
 import React from "react";
 import styles from "./Favorite.module.scss";
-
-const Favorites = ({ likes = [] }) => {
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+const Favorites = ({  likes = [] }) => {
   return (
+    <> 
+     <Header favoritesCount={likes.length} />
     <div className={styles.favorites}>
       <h1>Избранное</h1>
       {likes.length > 0 ? (
@@ -19,6 +22,8 @@ const Favorites = ({ likes = [] }) => {
         <p>Нет избранных товаров.</p>
       )}
     </div>
+       <Footer />
+    </>
   );
 };
 

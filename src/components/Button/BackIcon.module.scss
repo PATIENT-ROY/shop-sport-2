@@ -1,0 +1,30 @@
+.backButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #8bc34a;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .backButton:hover {
+    background-color: #7cb342;
+  }
+  p{
+    opacity: 40%;
+  }
+  .backButtonContent{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+  }
+  .BackIcon{
+    width: 13.71px;
+  height: 12px;
+  margin-right: 8px;
+  }

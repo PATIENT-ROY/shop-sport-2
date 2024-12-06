@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import ProductList from "../../components/ProductList/ProductList";
 import Header from "../../components/Header/Header";
 import SearchBar from "../../components/SearchBar/SearchBar";
@@ -11,15 +11,11 @@ const Home = ({ products = [] }) => {
   const [cart, setCart] = useState([]);
   const [likes, setLikes] = useState([]);
   const [searchText, setSearchText] = useState(""); // Состояние для текста поиска
-  const [filteredProducts, setFilteredProducts] = useState(products); // Для фильтрованных продуктов
-
-  // Фильтрация продуктов по названию
-  useEffect(() => {
-    const filtered = products.filter(product => 
+  const filteredProducts = useMemo(() => {
+    return products.filter(product => 
       product.title?.toLowerCase().includes(searchText.toLowerCase())
     );
-    setFilteredProducts(filtered); // Устанавливаем отфильтрованные продукты
-  }, [searchText, products]); // Зависимости: обновляем при изменении searchText или products
+  }, [searchText, products]);
 
   const addToCart = (product) => {
     console.log('Добавление в корзину:', product); 
